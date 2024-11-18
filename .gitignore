@@ -161,6 +161,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+<<<<<<< HEAD
 # Ignorar archivos del sistema de Windows y carpetas de usuario
 /AppData/
 /.vscode/
@@ -173,3 +174,33 @@ cython_debug/
 *.ipynb_checkpoints/
 *.env
 
+=======
+# Ignorar archivos del sistema de Windows y carpetas de usuario
+/AppData/
+/.vscode/
+/anaconda3/
+/sales-env/
+/*.log
+/*.tmp
+*.dat
+*.ini
+*.ipynb_checkpoints/
+*.env
+
+
+>>>>>>> c591204cef42423bb0b030d296a16927c65c52c6
+
+# Ignorar dependencias de Node.js
+node_modules/
+
+# Ignorar archivos temporales del sistema
+*.log
+*.tmp
+
+# Ignorar archivos y carpetas de VS Code
+.vscode/
+*.code-workspace
+
+# Ignorar archivos del sistema de Windows
+Thumbs.db
+.DS_Store

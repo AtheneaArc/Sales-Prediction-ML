@@ -17,22 +17,16 @@ matplotlib
 seaborn
 xgboost
 
----------------------------------------------------
+## Project Structure and Workflow Table
+Step	Description	Files/Directories Involved
+1. Data Collection	Load the dataset into the project folder. Verify data format and structure.	data/
+2. Exploratory Data Analysis (EDA)	Analyze the dataset to understand key features, distributions, and trends. Create visualizations for insights.	notebooks/sales_analysis.ipynb
+3. Data Cleaning	Handle missing values, remove duplicates, and normalize data.	notebooks/cleaning_steps.ipynb / scripts/
+4. Feature Engineering	Create new features or transform existing ones for better predictive power.	notebooks/feature_engineering.ipynb / scripts/
+5. Data Splitting	Split the data into training and testing sets.	scripts/data_preprocessing.py
+6. Model Training	Train regression models (e.g., XGBoost, Random Forest) using the training set.	scripts/model_training.py, models/
+7. Model Evaluation	Evaluate model performance using metrics like MSE, RMSE, or R².	notebooks/model_evaluation.ipynb
+8. Model Saving	Save the trained model for reuse.	models/sales_prediction_model.pkl
+9. Visualization	Create plots to summarize findings and model performance.	visualizations/
+10. Documentation	Update the README.md file with details of the project, findings, and usage instructions.	README.md
 
-Descripción: 
-Este proyecto utiliza técnicas de machine learning para predecir las ventas de una tienda minorista. El modelo se entrena con datos históricos usando algoritmos como Regresión Lineal, Random Forest y XGBoost. Los resultados se visualizan en un dashboard interactivo creado con Power BI o Tableau. El objetivo es demostrar habilidades en modelado predictivo y análisis de datos.
-
-## Estructura del Proyecto
-- `data/`: Contiene los datasets en formato `.csv`.
-- `models/`: Almacena los modelos entrenados.
-- `notebooks/`: Jupyter notebooks para análisis exploratorio de datos (EDA).
-- `scripts/`: Scripts en Python para preprocesamiento y modelado.
-- `visualizations/`: Gráficos y visualizaciones generados durante el análisis.
-
-## Librerías Necesarias
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
-- xgboost

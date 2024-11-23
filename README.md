@@ -67,7 +67,29 @@ Install these via the `requirements.txt` file.
 | R² Score         | X.XXX            |
 
 ---
+## **Dataset**
 
+The project uses the **Superstore Sales Dataset**, which contains transactional-level information about retail sales.
+
+### **Source**
+The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).
+
+### **Key Features**
+| **Feature**       | **Description**                     | **Example**               |
+|--------------------|-------------------------------------|---------------------------|
+| **Order ID**       | Unique order identifier            | CA-2017-152156            |
+| **Order Date**     | Date when the order was placed      | 11/8/2017                 |
+| **Ship Date**      | Date when the order was shipped     | 11/11/2017                |
+| **Sales**          | Total sales amount                 | 261.96                    |
+| **Profit**         | Profit earned                      | 41.91                     |
+| **Quantity**       | Number of units sold               | 2                         |
+| **Discount**       | Discount applied                   | 0.2                       |
+| **Category**       | Product category                   | Furniture                 |
+| **Sub-Category**   | Product sub-category               | Bookcases                 |
+| **Segment**        | Customer segment                   | Corporate                 |
+| **Region**         | Geographic region of the sale      | West                      |
+
+---
 ## **Business Case**
 This project demonstrates how predictive models can help retailers:
 - Optimize inventory management by predicting demand.
